@@ -98,3 +98,44 @@ npm i class-validator class-transformer
 ```
 
 - https://github.com/typestack/class-validator#manula-validation
+
+---
+
+## TypeORM
+
+### TypeORM이란?
+
+- TypeORM은 node.js에서 실행되고 TypeScript로 작성된 객체 관계형 매퍼 라이브러리
+- TypeORM은 MySQL, PostgreSQL, MariaDB, SQLite, MS SQL Server, Oracle, SAP Hana 및 WebSQL과 같은 여러 데이터베이스를 지원
+
+<br/>
+
+### ORM (Object Relational Mapping) 이란?
+
+- 객체와 관계형 데이터베이스의 데이터를 자동으로 변형 및 연결하는 작업
+- ORM을 이용한 개발은 객체와 데이터베이스의 변형에 유연하게 사용할 수 있다.
+
+<br/>
+
+### TypeORM 특징과 이점
+
+- 모델을 기반으로 데이터베이스 테이블 체계를 자동으로 생성
+- 데이터베이스에서 개체를 쉽게 삽입, 업데이트 및 삭제 가능
+- 테이블 간의 매핑(일대일, 일대 다, 다대 다) 생성
+- 간단한 CLI 명령 제공
+- TypeORM은 간단한 코딩으로 ORM 프레임워크를 사용하기 쉽다.
+- TypeORM은 다른 모듈과 쉽게 통합
+
+<br/>
+
+### TypeORM 사용하기
+
+```properties
+npm install pg typeorm @nestjs/typeorm
+```
+
+- @nestjs/typeorm: Nestjs에서 TypeORM을 사용하기 위해 연동시켜주는 모듈
+- typeorm: TypeORM 모듈
+- pg: Postgres 모듈
+
+https://docs.nestjs.com/techniques/database
