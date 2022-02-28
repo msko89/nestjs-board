@@ -139,3 +139,45 @@ npm install pg typeorm @nestjs/typeorm
 - pg: Postgres 모듈
 
 https://docs.nestjs.com/techniques/database
+
+---
+
+<br/>
+<br/>
+
+# 인증 기능 구현
+
+## Auth 모듈 생성
+
+- nest g module Auth
+
+<br/>
+
+## Auth Controller 생성
+
+- nest g controller auth --no-spec
+
+<br/>
+
+## Auth Service 생성
+
+- nest g service auth --no-spec
+
+<br/>
+
+## User를 위한 Entity 생성
+
+- 유저에 대한 인증을 하는 것이기 때문에 유저가 필요
+- 유저 데이터를 위한 유저 Entity 생성
+
+1. user.entity.ts 파일 생성
+1. 파일 소스 코드 작성
+
+<br/>
+
+## User Repository 생성
+
+- User Entity를 생성, 수정, 삭제 등의 로직을 처리하기 위해서 Repository 생성
+
+1. user.repository.ts 파일 생성
+1. 파일 소스 코드 작성
