@@ -181,3 +181,16 @@ https://docs.nestjs.com/techniques/database
 
 1. user.repository.ts 파일 생성
 1. 파일 소스 코드 작성
+
+---
+
+# JWT, Passport
+
+```properties
+npm install @nestjs/jwt @nestjs/passport passport passport-jwt --save
+```
+
+- @nestjs/jwt: Nestjs에서 jwt를 사용하기 위헤 필요한 모듈
+- @nestjs/passport: Nestjs에서 passport를 사용하기 위헤 필요한 모듈
+- passport: passport 모듈
+- passport-jwt: jwt 모듈
